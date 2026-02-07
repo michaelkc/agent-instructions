@@ -1,5 +1,5 @@
-# SetBackground.ps1
-# Usage: .\SetBackground.ps1 color #AA0000
+# SetWindowsDesktopBackgroundColor.ps1
+# Usage: .\SetWindowsDesktopBackgroundColor.ps1 color #AA0000
 
 param(
     [Parameter(Position = 0, Mandatory = $true)]
