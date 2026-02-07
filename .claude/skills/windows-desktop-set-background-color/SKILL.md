@@ -6,7 +6,7 @@ To set the Windows desktop background color to a specific solid color, run the P
 
 ### Usage
 ```powershell
-.\SetWindowsDesktopBackgroundColor.ps1 color "<hex_color>"
+pwsh -NoProfile -File .\SetWindowsDesktopBackgroundColor.ps1 color "<hex_color>"
 ```
 
 ### Parameters
@@ -16,10 +16,10 @@ To set the Windows desktop background color to a specific solid color, run the P
 ### Examples
 Set background to Red:
 ```powershell
-.\SetWindowsDesktopBackgroundColor.ps1 color "#FF0000"
+pwsh -NoProfile -File .\SetWindowsDesktopBackgroundColor.ps1 color "#FF0000"
 ```
 
 Set background to Steel Grey:
 ```powershell
-.\SetWindowsDesktopBackgroundColor.ps1 color "#71797E"
+pwsh -NoProfile -File .\SetWindowsDesktopBackgroundColor.ps1 color "#71797E"
 ```
